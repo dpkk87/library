@@ -10,6 +10,11 @@ books = [
         'name': 'harry potter',
         'author': 'J.K.Rowling',
         'userId': 1
+    },
+    {
+        'name': 'Angles and daemons',
+        'author': 'Dan brown',
+        'userId': null
     }
 ]
 

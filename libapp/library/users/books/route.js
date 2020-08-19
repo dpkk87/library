@@ -25,7 +25,7 @@ router.get('/:bookId', async function (req, res, next) {
 
 router.put('/:bookId', async function (req, res, next) {
     try {
-        const success = await bookService.lendBook(req.params.userId, req.params.bookId);
+        const success = await bookService.lendBook(req.params.userId, req.params.bookId);       
         res.send(success);
     } catch (error) {
         next(createError(400, 'Book cannot be taken'));

@@ -1,0 +1,22 @@
+h2{
+    padding: 0 20px;
+}
+.book-list{
+    list-style: none;
+    padding: 0 20px;
+}
+
+.book-list li{
+    display: flex;
+    padding:10px;
+    cursor: pointer;
+}
+
+.book-list li.active{
+    background: #20B2AA;
+    border: solid 1px #777777;
+}
+
+.book-list li div{
+    width: 50%;
+}

@@ -1,0 +1,7 @@
+<h2>
+    Book List
+</h2>
+<ul class="book-list">
+    <li *ngFor="let book of books" (click)="book.userId === userId ? returnBook(book.id): lendBook(book.id)" [ngClass]="{'active' : book.userId === userId}">
+        <div>{{book.name}}</div><div>{{book.author}}</div></li>
+</ul>
